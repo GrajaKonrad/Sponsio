@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+#closeGame{
+    display: none;
+    background-color: red
+}
+
+#closeGame:hover {
+    background-color: #ff4343;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.content_box {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.header {
+    font:800 1.5em Arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.control_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control_buttons button:hover {
+    background-color: #555;
+}
+
+.control_buttons button:active {
+    background-color: #777;
+}
+
+.control_buttons input {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    width: 200px;
+    color: black;
+    text-align: center;
+}
+
+.gameArea {
+    display: none;
+    flex-direction: column;
+}
+
+canvas {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.scoreboard div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoreboard div input {
+    text-align: center;
+    font-size: 16px;
+}

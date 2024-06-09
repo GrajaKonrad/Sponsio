@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Game</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="content_box" id="gameMenu">
+        <div class="header">Let's do some bets</div>
+        <div class="control_buttons">
+            <button id="createGame">New Game</button>
+            <button id="joinGame">Join Game</button>
+            <input type="text" id="gameId" placeholder="Type Game Id ...">
+        </div>
+    </div>
+    <div id="gameArea" class="gameArea">
+        <div class="header" id="welcomeMessage"></div>
+        <canvas id="gameCanvas" width="1000" height="400"></canvas>
+        <div class="scoreboard" id="scoreBoard">
+            <div>
+                <label for="scoreBox1">Player 1 Score:</label>
+                <textarea id="scoreBox1" rows="1" cols="10" readonly>0</textarea>
+            </div>
+            <div>
+                <label for="scoreBox2">Player 2 Score:</label>
+                <textarea id="scoreBox2" rows="1" cols="10" readonly>0</textarea>
+            </div>
+            <div>
+                <label for="scoreBox3">Player 3 Score:</label>
+                <textarea id="scoreBox3" rows="1" cols="10" readonly>0</textarea>
+            </div>
+        </div>
+        <button id="closeGame">Close Game</button>
+    </div>
+    <script src="websocket.js"></script>
+    <script src="game.js"></script>
+    <script src="setup_game.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+create game                     0000
+game id & player id             0000 0000000000000000 000
+player id               0010
+game start              0011
+new round               0100
+player choice           0101
+results                 0110
+game over               0111

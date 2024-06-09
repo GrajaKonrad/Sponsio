@@ -1,0 +1,24 @@
+{
+  "name": "sponsio",
+  "version": "1.0.0",
+  "description": "Simple WebSocket based betting game on Node serwer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrajaKonrad/Sponsio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrajaKonrad/Sponsio/issues"
+  },
+  "homepage": "https://github.com/GrajaKonrad/Sponsio#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  }
+}
